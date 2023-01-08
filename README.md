@@ -53,7 +53,10 @@ The mft framework has the following capabilities.
 
 The mft framework bundles the compiled versions of the following open source libraries:
 * libssh 0.9.6
-* openssl 1.1.1m
+
+## iSSH2 Build
+
+Get this fork of iSSH2 https://github.com/timtimellis/iSSH2 and use ./build.sh to build frameworks
 
 ## Building mft framework
 
@@ -65,8 +68,8 @@ The mft should be built into an xcframework, that can easily be embedded in Xcod
 git clone https://github.com/mplpl/mft
 ```
 3) Open the mft project in Xcode, go to settings of the "mft" target, and verify that there are no errors on "Signing & Capabilities". If they are, check the configuration of your developer account. Repeat the check for the "mft ios" target
-
-4) Close Xcode and open Terminal, go to mft folder, and call:
+4) Replace the libcrypto.xcframework and libssl.xcframework files in the project with your own built ones
+5) Close Xcode and open Terminal, go to mft folder, and call:
 ```
 ./build.sh
 ```
