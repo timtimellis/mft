@@ -49,11 +49,6 @@ The mft framework has the following capabilities.
 * Swift
 * Objective-C
 
-## Bundled components
-
-The mft framework bundles the compiled versions of the following open source libraries:
-* libssh 0.9.6
-
 ## iSSH2 Build
 
 Get this fork of iSSH2 https://github.com/timtimellis/iSSH2 and use ./build.sh to build frameworks
