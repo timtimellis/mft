@@ -8,30 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		2201B393296B073100559754 /* libcrypto.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B38E296B06D300559754 /* libcrypto.xcframework */; };
-		2201B394296B073100559754 /* libcrypto.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B38E296B06D300559754 /* libcrypto.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2201B396296B073300559754 /* libssl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B38D296B06D300559754 /* libssl.xcframework */; };
-		2201B397296B073300559754 /* libssl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B38D296B06D300559754 /* libssl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2201B398296B07D800559754 /* libcrypto.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B38E296B06D300559754 /* libcrypto.xcframework */; };
-		2201B399296B07D800559754 /* libcrypto.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B38E296B06D300559754 /* libcrypto.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2201B39B296B07DA00559754 /* libssl.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B38D296B06D300559754 /* libssl.xcframework */; };
-		2201B39C296B07DA00559754 /* libssl.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B38D296B06D300559754 /* libssl.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2201B3C4296C2EEE00559754 /* libssh.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B3C2296C2EBD00559754 /* libssh.xcframework */; };
-		2201B3C5296C2EEE00559754 /* libssh.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B3C2296C2EBD00559754 /* libssh.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		2201B3C6296C2EFA00559754 /* libssh.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B3C2296C2EBD00559754 /* libssh.xcframework */; };
-		2201B3C7296C2EFA00559754 /* libssh.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B3C2296C2EBD00559754 /* libssh.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2201B3E3296C7A1A00559754 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B3E2296C7A1A00559754 /* libiconv.2.tbd */; };
+		2201B3E5296C7A4300559754 /* libiconv.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B3E4296C7A4300559754 /* libiconv.2.tbd */; };
+		2201B3E7296C800800559754 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B3E6296C800800559754 /* libz.1.tbd */; };
+		2201B3E9296C803100559754 /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2201B3E8296C803100559754 /* libz.1.tbd */; };
 		C10B3DCE27A6BBE100A19857 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C10B3DCC27A6BBE100A19857 /* Localizable.strings */; };
 		C10B3E0B27A6EC7B00A19857 /* NSString+iconv.h in Headers */ = {isa = PBXBuildFile; fileRef = C10B3E0927A6EC7B00A19857 /* NSString+iconv.h */; };
 		C10B3E0C27A6EC7B00A19857 /* NSString+iconv.m in Sources */ = {isa = PBXBuildFile; fileRef = C10B3E0A27A6EC7B00A19857 /* NSString+iconv.m */; };
-		C10B3E0E27A6ECA900A19857 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C10B3E0D27A6EC9C00A19857 /* libiconv.tbd */; };
 		C10B3EAF27A7D05200A19857 /* NSString+iconv.h in Headers */ = {isa = PBXBuildFile; fileRef = C10B3E0927A6EC7B00A19857 /* NSString+iconv.h */; };
 		C10B3EB027A7D05200A19857 /* mft.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D2B2BF27A3EE09004D9ACE /* mft.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C10B3EB227A7D05200A19857 /* NSString+iconv.m in Sources */ = {isa = PBXBuildFile; fileRef = C10B3E0A27A6EC7B00A19857 /* NSString+iconv.m */; };
 		C10B3EB327A7D05200A19857 /* MFTSftpItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2B33027A42788004D9ACE /* MFTSftpItem.swift */; };
 		C10B3EB427A7D05200A19857 /* MFTSftpConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2B2D627A3EE58004D9ACE /* MFTSftpConnection.swift */; };
-		C10B3EB627A7D05200A19857 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C10B3E0D27A6EC9C00A19857 /* libiconv.tbd */; };
 		C10B3EB927A7D05200A19857 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = C10B3DCC27A6BBE100A19857 /* Localizable.strings */; };
-		C1246FDC27A96C5C000049BF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C13D169727A894BC009A99B7 /* libz.tbd */; };
-		C1246FDE27A96E8B000049BF /* libz.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C1246FDD27A96E86000049BF /* libz.1.tbd */; };
 		C1D2B2C727A3EE09004D9ACE /* mft.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1D2B2BC27A3EE09004D9ACE /* mft.framework */; };
 		C1D2B2CC27A3EE09004D9ACE /* mftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D2B2CB27A3EE09004D9ACE /* mftTests.swift */; };
 		C1D2B2CD27A3EE09004D9ACE /* mft.h in Headers */ = {isa = PBXBuildFile; fileRef = C1D2B2BF27A3EE09004D9ACE /* mft.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,49 +43,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		2201B395296B073100559754 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2201B397296B073300559754 /* libssl.xcframework in Embed Frameworks */,
-				2201B3C5296C2EEE00559754 /* libssh.xcframework in Embed Frameworks */,
-				2201B394296B073100559754 /* libcrypto.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2201B39A296B07D800559754 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				2201B39C296B07DA00559754 /* libssl.xcframework in Embed Frameworks */,
-				2201B3C7296C2EFA00559754 /* libssh.xcframework in Embed Frameworks */,
-				2201B399296B07D800559754 /* libcrypto.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		2201B38D296B06D300559754 /* libssl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libssl.xcframework; path = ../iSSH2/libssl.xcframework; sourceTree = "<group>"; };
 		2201B38E296B06D300559754 /* libcrypto.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libcrypto.xcframework; path = ../iSSH2/libcrypto.xcframework; sourceTree = "<group>"; };
 		2201B3C2296C2EBD00559754 /* libssh.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libssh.xcframework; path = ../iSSH2/libssh.xcframework; sourceTree = "<group>"; };
+		2201B3E2296C7A1A00559754 /* libiconv.2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libiconv.2.tbd; sourceTree = DEVELOPER_DIR; };
+		2201B3E4296C7A4300559754 /* libiconv.2.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libiconv.2.tbd; sourceTree = DEVELOPER_DIR; };
+		2201B3E6296C800800559754 /* libz.1.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.1.tbd; sourceTree = DEVELOPER_DIR; };
+		2201B3E8296C803100559754 /* libz.1.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libz.1.tbd; sourceTree = DEVELOPER_DIR; };
 		C10B3DCD27A6BBE100A19857 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C10B3DCF27A6BBE500A19857 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C10B3DD027A6BBE700A19857 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		C10B3E0927A6EC7B00A19857 /* NSString+iconv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+iconv.h"; sourceTree = "<group>"; };
 		C10B3E0A27A6EC7B00A19857 /* NSString+iconv.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+iconv.m"; sourceTree = "<group>"; };
-		C10B3E0D27A6EC9C00A19857 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		C10B3E3327A7006300A19857 /* module.map */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.map; sourceTree = "<group>"; };
 		C10B3EBF27A7D05200A19857 /* mft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C1246FDD27A96E86000049BF /* libz.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/lib/libz.1.tbd; sourceTree = DEVELOPER_DIR; };
-		C13D169727A894BC009A99B7 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C1719D7227BE50AC0030CB6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C1719D7327BE50DB0030CB6E /* mft-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mft-ios-Info.plist"; sourceTree = "<group>"; };
 		C1D2B2BC27A3EE09004D9ACE /* mft.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = mft.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,10 +74,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2201B3C6296C2EFA00559754 /* libssh.xcframework in Frameworks */,
+				2201B3E7296C800800559754 /* libz.1.tbd in Frameworks */,
 				2201B398296B07D800559754 /* libcrypto.xcframework in Frameworks */,
-				C10B3EB627A7D05200A19857 /* libiconv.tbd in Frameworks */,
 				2201B39B296B07DA00559754 /* libssl.xcframework in Frameworks */,
-				C1246FDE27A96E8B000049BF /* libz.1.tbd in Frameworks */,
+				2201B3E5296C7A4300559754 /* libiconv.2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,10 +86,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2201B3C4296C2EEE00559754 /* libssh.xcframework in Frameworks */,
-				C10B3E0E27A6ECA900A19857 /* libiconv.tbd in Frameworks */,
+				2201B3E9296C803100559754 /* libz.1.tbd in Frameworks */,
 				2201B396296B073300559754 /* libssl.xcframework in Frameworks */,
 				2201B393296B073100559754 /* libcrypto.xcframework in Frameworks */,
-				C1246FDC27A96C5C000049BF /* libz.tbd in Frameworks */,
+				2201B3E3296C7A1A00559754 /* libiconv.2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -185,12 +151,13 @@
 		C1D2B2E327A3EFF4004D9ACE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2201B3E6296C800800559754 /* libz.1.tbd */,
+				2201B3E8296C803100559754 /* libz.1.tbd */,
+				2201B3E2296C7A1A00559754 /* libiconv.2.tbd */,
+				2201B3E4296C7A4300559754 /* libiconv.2.tbd */,
 				2201B3C2296C2EBD00559754 /* libssh.xcframework */,
 				2201B38E296B06D300559754 /* libcrypto.xcframework */,
 				2201B38D296B06D300559754 /* libssl.xcframework */,
-				C13D169727A894BC009A99B7 /* libz.tbd */,
-				C1246FDD27A96E86000049BF /* libz.1.tbd */,
-				C10B3E0D27A6EC9C00A19857 /* libiconv.tbd */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -227,7 +194,6 @@
 				C10B3EB127A7D05200A19857 /* Sources */,
 				C10B3EB527A7D05200A19857 /* Frameworks */,
 				C10B3EB827A7D05200A19857 /* Resources */,
-				2201B39A296B07D800559754 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,7 +212,6 @@
 				C1D2B2B827A3EE09004D9ACE /* Sources */,
 				C1D2B2B927A3EE09004D9ACE /* Frameworks */,
 				C1D2B2BA27A3EE09004D9ACE /* Resources */,
-				2201B395296B073100559754 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -401,6 +366,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -427,8 +393,9 @@
 				MARKETING_VERSION = 1.0.3;
 				MODULEMAP_FILE = "";
 				OTHER_LDFLAGS = "";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mpl.mftcom.jambadger.frameworks.mft;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jambadger.frameworks.mft;
 				PRODUCT_NAME = mft;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				SUPPORTS_MACCATALYST = NO;
@@ -445,6 +412,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -473,6 +441,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jambadger.frameworks.mft;
 				PRODUCT_NAME = mft;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 				SUPPORTS_MACCATALYST = NO;
@@ -621,6 +590,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -646,6 +616,7 @@
 				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jambadger.frameworks.mft;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -658,6 +629,7 @@
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -683,6 +655,7 @@
 				MODULEMAP_FILE = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jambadger.frameworks.mft;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

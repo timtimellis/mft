@@ -64,7 +64,7 @@ git clone https://github.com/mplpl/mft
 ```
 3) Open the mft project in Xcode, go to settings of the "mft" target, and verify that there are no errors on "Signing & Capabilities". If they are, check the configuration of your developer account. Repeat the check for the "mft ios" target
 4) Replace the libssh.xcframework, libcrypto.xcframework and libssl.xcframework files in the project with your own built ones
-5) Under the general settings for each target ensure that each framework is set to "Embed and sign"
+5) Under the general settings for each target ensure that each framework is set to "Do not embed"
 6) Close Xcode and open Terminal, go to mft folder, and call:
 ```
 ./build.sh
