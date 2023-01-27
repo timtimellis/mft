@@ -203,6 +203,22 @@ import Foundation
             throw error_ssh()
         }
         
+        let hmac = "hmac-sha2-256-etm@openssh.com,hmac-sha2-512-etm@openssh.com,hmac-sha2-256,hmac-sha2-512,hmac-sha1,hmac-md5"
+        if ssh_options_set(session, SSH_OPTIONS_HMAC_S_C, hmac) < 0 {
+            defer {
+                ssh_free(session)
+                session = nil
+            }
+            throw error_ssh()
+        }
+        if ssh_options_set(session, SSH_OPTIONS_HMAC_C_S, hmac) < 0 {
+            defer {
+                ssh_free(session)
+                session = nil
+            }
+            throw error_ssh()
+        }
+        
         let ciphers = "chacha20-poly1305@openssh.com,aes256-gcm@openssh.com,aes128-gcm@openssh.com,aes256-ctr,aes192-ctr,aes128-ctr,aes256-cbc,aes192-cbc,aes128-cbc,3des-cbc"
         let compression = "none,zlib,zlib@openssh.com"
         if ssh_options_set(session, SSH_OPTIONS_CIPHERS_C_S, ciphers) < 0 ||

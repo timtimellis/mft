@@ -4,9 +4,9 @@ module NSString_iconv {
 }
 
 module libssh {
-    header "../../iSSH2/libssh.xcframework/ios-arm64/libssh.framework/Headers/libssh.h"
-    header "../../iSSH2/libssh.xcframework/ios-arm64/libssh.framework/Headers/sftp.h"
-    header "../../iSSH2/libssh.xcframework/ios-arm64/libssh.framework/Headers/misc.h"
-    header "../../iSSH2/libssh.xcframework/ios-arm64/libssh.framework/Headers/knownhosts.h"
+    header "../../iSSH2/libssh.xcframework/ios-arm64_arm64e/libssh.framework/Headers/libssh.h"
+    header "../../iSSH2/libssh.xcframework/ios-arm64_arm64e/libssh.framework/Headers/sftp.h"
+    header "../../iSSH2/libssh.xcframework/ios-arm64_arm64e/libssh.framework/Headers/misc.h"
+    header "../../iSSH2/libssh.xcframework/ios-arm64_arm64e/libssh.framework/Headers/knownhosts.h"
     export *
 }
